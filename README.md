@@ -107,28 +107,6 @@ experiment with the changes live.)
 ```sass
     @import "filename";
 ```
-<hr />
-
-### Updating npm modules
-
-See the outdated modules with
-
-    npm outdated
-
-Updating modules with 
-
-    npm update <module_name>@latest
-
-See the outdated global packages
-
-    npm outdated -g --depth=0
-    
-To update global packages
-
-    npm install -g <package_name>@latest
-
-All packages in red should be upgraded first, then upgrade ones in yellow, because of the possibility of breaking change.
-
 
 # Licence
 Code released under the [MIT License](LICENSE.md).
